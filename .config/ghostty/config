@@ -6,79 +6,105 @@
 
 # ── Font ──────────────────────────────────────────────
 font-family            = JetBrainsMono Nerd Font
-font-size              = 13
+font-size              = 14
 font-style             = Regular
 font-style-bold        = Bold
 font-style-italic      = Italic
 font-style-bold-italic = Bold Italic
-font-thicken           = true          # Cleaner rendering on Retina
+font-thicken           = true
+# Cleaner rendering on Retina
 
 
 # ── Transparency & Blur ───────────────────────────────
-background-opacity    = 0.88
-background-blur-radius = 32            # macOS vibrancy blur
+background-opacity    = 0.80
+background-blur       = true
+# background-blur       = macos-glass-regular
+# background-blur       = macos-glass-clear
 
 
 # ── Window ────────────────────────────────────────────
-macos-titlebar-style  = tabs           # Native tab bar, no ugly titlebar
-window-padding-x      = 14
-window-padding-y      = 12
-window-padding-balance = true          # Equal padding around content
-window-width          = 220
-window-height         = 50
+# Native tab bar, no ugly titlebar
+macos-titlebar-style  = tabs
+window-padding-x      = 12
+window-padding-y      = 8
+window-padding-balance = true
+# Equal padding around content
+window-width          = 120
+window-height         = 30
 
 
 # ── Cursor ────────────────────────────────────────────
 cursor-style          = bar
-cursor-style-blink    = smooth
-cursor-color          = #89b4fa        # Soft blue, stands out on any bg
+cursor-style-blink    = true
+# Soft blue, stands out on any bg
+# cursor-color          = #89b4fa
 
 
 # ── Shell ─────────────────────────────────────────────
 shell-integration          = detect
 shell-integration-features = cursor,sudo,title
 
+# Tema Marathon (2026) - Bungie - Fundo Azul Escuro
+# background = #0d0350
+# foreground = #e8e6ff
+#
+# cursor-color = #cdfc51
+# cursor-text = #000000
+#
+# selection-background = #ea027e
+# selection-foreground = #ffffff
+#
+# palette = 0=#000000
+# palette = 1=#ff5500
+# palette = 2=#cdfc51
+# palette = 3=#e6a828
+# palette = 4=#7a52fd
+# palette = 5=#ea027e
+# palette = 6=#a8b0c8
+# palette = 7=#e8e6ff
+# palette = 8=#1a1240
+# palette = 9=#ff8a4d
+# palette = 10=#e0ff8c
+# palette = 11=#ffcf5c
+# palette = 12=#9d7bff
+# palette = 13=#ff4da8
+# palette = 14=#c2ccd6
+# palette = 15=#ffffff
 
-# ── Colors — Catppuccin Mocha ─────────────────────────
-# A dark, desaturated palette that pairs well with transparency
+# Tema Marathon (2026) - Bungie
+# background = #000000
+# foreground = #d6d9dc
+#
+# cursor-color = #cdfc51
+# cursor-text = #000000
+#
+# selection-background = #3601fb
+# selection-foreground = #ffffff
+#
+# palette = 0=#000000
+# palette = 1=#ff5500
+# palette = 2=#cdfc51
+# palette = 3=#e6a828
+# palette = 4=#3601fb
+# palette = 5=#ea027e
+# palette = 6=#3601fb
+# palette = 7=#d6d9dc
+# palette = 8=#3a3a3a
+# palette = 9=#ff8a4d
+# palette = 10=#e0ff8c
+# palette = 11=#ffcf5c
+# palette = 12=#7a52fd
+# palette = 13=#ff4da8
+# palette = 14=#5c3dfd
+# palette = 15=#ffffff
 
-background  = #1e1e2e
-foreground  = #cdd6f4
-
-# Black
-palette = 0=#45475a
-palette = 8=#585b70
-
-# Red
-palette = 1=#f38ba8
-palette = 9=#f38ba8
-
-# Green
-palette = 2=#a6e3a1
-palette = 10=#a6e3a1
-
-# Yellow
-palette = 3=#f9e2af
-palette = 11=#f9e2af
-
-# Blue
-palette = 4=#89b4fa
-palette = 12=#89b4fa
-
-# Magenta
-palette = 5=#cba4f7
-palette = 13=#cba4f7
-
-# Cyan
-palette = 6=#94e2d5
-palette = 14=#94e2d5
-
-# White
-palette = 7=#bac2de
-palette = 15=#a6adc8
-
-selection-background = #313244
-selection-foreground = #cdd6f4
+# theme = Gruvbox Material Dark
+# theme = HaX0R Blue
+# theme = Black Metal (Gorgoroth)
+# theme = Crayon Pony Fish
+# theme = Github
+background = #000
+theme = Batman
 
 
 # ── Keybinds ──────────────────────────────────────────
@@ -92,7 +118,9 @@ keybind = super+shift+enter=toggle_fullscreen
 
 # ── Misc ──────────────────────────────────────────────
 copy-on-select          = false
-confirm-close-surface   = false        # No popup when closing a tab
+# No popup when closing a tab
+confirm-close-surface   = false
 mouse-hide-while-typing = true
 scrollback-limit        = 10000
-auto-update             = check        # Notify only, don't auto-install
+# Notify only, don't auto-install
+auto-update             = check

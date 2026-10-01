@@ -115,3 +115,6 @@ alias minikctl="minikube kubectl"
 # Alias recomendado no .zshrc
 alias brew-up='brew update && brew upgrade'
 
+
+# Logi Build Haptics
+source ~/.config/logi-build-haptics/integration.zsh

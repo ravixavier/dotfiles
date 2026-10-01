@@ -12,9 +12,6 @@ export EDITOR='nvim'
 
 # PATH
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$(go env GOPATH)/bin:$PATH"
-export GOTELEMETRY=off
 
 # NVM
 export NVM_DIR="$HOME/.config/nvm"
